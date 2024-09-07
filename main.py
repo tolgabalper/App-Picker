@@ -1,5 +1,3 @@
-# v2 and later is licensed under the MIT License.
-
 import platform
 import subprocess
 
