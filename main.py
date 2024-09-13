@@ -1126,7 +1126,7 @@ def search(os, package_manager, category2):
                 break
 
 
-print("Welcome to sys-configurator")
+print("Welcome to App-Picker")
 input("Press Enter to continue...")
 print("\x1B[2J")
 
