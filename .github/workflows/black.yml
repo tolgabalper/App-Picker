@@ -8,4 +8,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: psf/black@stable
         with:
-          options: "--check --diff --no-color"
+          options: "--check --diff --no-color --quiet"
