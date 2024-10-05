@@ -1,0 +1,11 @@
+on: [push, pull_request]
+
+jobs:
+  lint:
+    name: Run Black formatter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: psf/black@stable
+        with:
+          options: "--check --diff --no-color"
